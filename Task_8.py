@@ -7,7 +7,6 @@
 length = int(input('Длина шоколадки : '))
 width = int(input('Ширина шоколадки : '))
 number_slices = int(input('Kоличество долек : '))
-total = length * width  # всего долек
 
 if (number_slices % width == 0 or number_slices % length == 0):
     print (F'-> yes')
